@@ -462,6 +462,13 @@ header .navbar ul li a:hover{
 
 }
 
+@media (max-width:600px){
+    .portfolio .box-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
 @media (max-width:400px){
 
     header{
