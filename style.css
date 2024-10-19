@@ -415,6 +415,24 @@ header .navbar ul li a:hover{
     font-weight: normal;
 }
 
+@media (max-width:600px){
+    .contact .row .content .info {
+        margin-left: 160px;
+    }
+    .contact .row .content .title{
+        margin-left: 160px;
+    }
+}
+
+@media (max-width: 400px){
+    .contact .row .content .info {
+        margin-left: 280px;
+    }
+    .contact .row .content .title{
+        margin-left: 280px;
+    }
+}
+
 .contact .row .content .info h3 i{
     padding-right: 1rem;
     color: var(--yellow);
